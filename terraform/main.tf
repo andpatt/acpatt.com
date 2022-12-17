@@ -15,7 +15,7 @@ data "uptimerobot_alert_contact" "alerts" {
 resource "cloudflare_record" "cname" {
   zone_id = data.cloudflare_zones.primary.zones[0].id
   name    = var.hostname
-  value   = "acpatt.gitlab.io"
+  value   = "the-junkyard.gitlab.io"
   type    = "CNAME"
   proxied = true
 }
@@ -23,7 +23,7 @@ resource "cloudflare_record" "cname" {
 resource "cloudflare_record" "challenge" {
   zone_id = data.cloudflare_zones.primary.zones[0].id
   name    = "_gitlab-pages-verification-code"
-  value   = "gitlab-pages-verification-code=a04b092520bff24de08b7e58148010cc"
+  value   = "gitlab-pages-verification-code=bc25910337416a58b662129ac707df02"
   type    = "TXT"
 }
 
