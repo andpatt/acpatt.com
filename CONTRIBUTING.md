@@ -19,4 +19,6 @@ terraform init \
 
 terraform apply
 
-4. 
+4. install node (https://github.com/nodesource/distributions/blob/master/README.md#using-ubuntu-1)
+
+5. npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter" - this is the deafult example next.js app
