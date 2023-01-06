@@ -1,0 +1,25 @@
+{
+  "name": "acpatt.com",
+  "version": "1.0.0",
+  "description": "This is the ACPatt Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/the-junkyard/main.git"
+  },
+  "keywords": [
+    "js",
+    "semanticui",
+    "acpatt",
+    "andrew"
+  ],
+  "author": "Andrew Patterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/the-junkyard/main/issues"
+  },
+  "homepage": "https://gitlab.com/the-junkyard/main#readme"
+}
