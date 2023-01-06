@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<script type="module" src="https://cdn.jsdelivr.net/npm/numl@1.1.2/dist/index.js"></script>
+<html lang="en">
+    <style>
+    </style>
+    <head>
+        <style>*:not(:defined) { visibility: hidden; }</style>
+        <link rel="shortcut icon" href="/favicon.ico">
+        <meta charset="utf-8">
+        <!-- TODO: Add twitter stuff-->
+    </head>
+    <body>
+      <nu-root>
+        <nu-attrs for="btn" padding=".25rem" clear=""></nu-attrs>
+        <nu-block>
+          <nu-header  fill="clear">
+            <nu-pane content="space-between" flow="row|||column" is-responsive="root">
+              <nu-pane gap="0|||1x" is-responsive="root">
+                <nu-svg src="acpatt_logo.svg">
+                </nu-svg>
+              </nu-pane>
+              <nu-pane >
+                <nu-btn to="#">
+                  Blog
+                </nu-btn>
+                <nu-btn to="#">
+                  Work Stuff
+                </nu-btn>
+                <nu-btn to="#" >
+                  Talk to me
+                </nu-btn>
+              </nu-pane>
+            </nu-pane>
+          </nu-header>
+          <nu-section class="hero">
+              <div class="row">
+                <div class="hero-text"> <!--TODO READ https://www.mightycitizen.com/insights/articles/we-got-it-wrong-how-to-write-a-perfect-website-hero-message-revisited -->
+                  <nu-h1>
+                    It's Me!
+                  </nu-h1>
+                  <p>
+                    I'm Andrew. I love helping people to solve their problems, gardening, building information systems and making stuff out of wood or leather.
+                  </p>
+                </div>
+                <div class="hero-img">
+                  <nu-img class="hero-img" src="Andrew.png" alt="Cartoon Picture of me">
+                </div>
+              </div>
+          </nu-section>
+        </nu-block>
+      </nu-root>
+    </body>
+</html>
