@@ -1,17 +1,64 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/base-min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
 <html lang="en">
+    <style>
+      img.logo {
+        max-width:150px
+      }
+
+      img.hero-img {
+        max-width:600px
+      }
+
+.home-menu ul {
+            float: right;
+        }
+
+    </style>
     <head>
+        <style>*:not(:defined) { visibility: hidden; }</style>
         <link rel="shortcut icon" href="/favicon.ico">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- TODO: Add twitter stuff-->
     </head>
     <body>
-        <nav>
-            <div class="row">
-              <div class="logo">
-                
-              </div>
+        <div class="home-menu pure-menu pure-menu-horizontal">
+          <img href="#" class="pure-menu-item logo" alt="ACPatt Logo" src="acpatt_logo.svg">
+          <ul class="pure-menu-list">
+              <li class="pure-menu-item">
+                  <a href="#" class="pure-menu-link">Blog</a>
+              </li>
+              <li class="pure-menu-item">
+                  <a href="#" class="pure-menu-link">Work Stuff</a>
+              </li>
+              <li class="pure-menu-item">
+                  <a href="#" class="pure-menu-link">Talk to me</a>
+              </li>
+          </ul>
+        </div>
+
+      <section class="hero splas">
+          <div class="row">
+            <div class="hero-text"> <!--TODO READ https://www.mightycitizen.com/insights/articles/we-got-it-wrong-how-to-write-a-perfect-website-hero-message-revisited -->
+              <h1>
+                It's Me!
+              </h1>
+              <p>
+                I'm Andrew. I love helping people to solve their problems, gardening, building information systems and making stuff out of wood or leather.
+              </p>
             </div>
-        </nav>
+            <div class="hero-img">
+              <img class="hero-img" src="Andrew.png" alt="Cartoon Picture of me">
+            </div>
+          </div>
+      </section>
+      <div class="pure-g">
+        <div class="pure-sm-1 pure-u-lg-1-3"><p>The viewport meta element lets you control the the width and scale of the viewport on mobile browsers. Since you're building a responsive website, you want the width to be equal to the device's native width. Add this into your page's <head>.</p></div>
+        <div class="pure-sm-1-2 pure-u-lg-1-3"><p>Thirds</p></div>
+        <div class="pure-sm-1-2 pure-u-lg-1-3"><p>Thirds</p></div>
+    </div>
     </body>
 </html>
