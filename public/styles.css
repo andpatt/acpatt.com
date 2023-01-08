@@ -39,7 +39,6 @@ a  {
  */
 
 .nav {
-    padding: 0.5em;
     
     text-align: center;
     background: #183329;
@@ -49,6 +48,11 @@ a  {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
 }
+
+.pure-menu-link {
+    padding: .25em;
+}
+
 
 .nav a {
     color: #deb8bd;
@@ -62,6 +66,7 @@ a  {
 }
 
 
+
 .hero-container {
     background: #183329;
     z-index: 1;
@@ -71,7 +76,6 @@ a  {
 /* keep it below the nav, otherwise it underlaps */
     top: 100; 
     left: 0;
-    position: absolute !important;
 
 }
 
@@ -82,7 +86,7 @@ div.hero-text {
 
 .hero-img {
     display: block;
-    max-width: 900px;
+    max-width: 600px;
     /* we want the bottom of the portrait to align with the bottom of the section */
     margin-bottom: -30px
 }
@@ -94,6 +98,44 @@ p.hero-text {
     opacity: 0.8;
     font-size: 18px;
 
+}
+
+.story-container {
+    background: #deb8bd;
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+/* keep it below the nav, otherwise it underlaps */
+    top: 100; 
+    left: 0;
+
+}
+
+div.story-text {
+    max-width: 600px;
+    padding: 30px;
+}
+
+.story-img {
+    display: block;
+    max-width: 600px;
+    /* we want the bottom of the portrait to align with the bottom of the section */
+    margin-bottom: -30px
+}
+
+
+/* This is the subheading that appears on the blue section */
+p.story-text {
+    color: #183329;
+    opacity: 0.8;
+    font-size: 18px;
+
+}
+
+h2.story-text {
+    color: #183329;
+ 
 }
 
 /*
@@ -114,5 +156,14 @@ p.hero-text {
             font-family: "Verlag","Segoe UI","Helvetica Neue",Arial,"Noto Sans";
             font-weight: 500;
         }
-
+    .pure-menu-link {
+        padding: .5em 1em;
+    }
+    
 }
+
+
+
+
+/* Test styles for rest of content */
+
