@@ -1,0 +1,33 @@
+
+
+@import url(https://fonts.googleapis.com/css);
+
+
+/* Actual colours */
+$black-coffee: #423645ff;
+$phthalo-green: #183329ff; 
+$baby-pink: #deb8bdff;
+$pink-lace: #F0D3F7;
+$morning-blue: #89A7A7;
+
+/* Style the nav */
+
+nav {
+    background: $phthalo-green;
+    padding: 10px;
+    text-align: center; /* This horizontally centres the whole nav#s content */
+}
+
+
+/* Styles to add when we've got enough space */
+@media screen and (min-width: 1024px) {
+  .container {
+    /* Give the content a comfortable distance from window sides */
+    padding: 0 120px;  
+
+    /* Stops the content getting stupidly wide on big screens */
+    max-width: 1280px; 
+
+    
+  }
+}

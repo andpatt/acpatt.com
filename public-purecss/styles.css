@@ -181,12 +181,4 @@ h2.story-text {
     p {
       font-size: 18px;
     }
-    nav .mobile-links {
-        display: none
-    }
-    nav .links {
-        display: block
-
-    }
-
 }
