@@ -1,33 +1,53 @@
 
-
+/* Font import */
 @import url(https://fonts.googleapis.com/css);
+/* Font import end */
 
-
-/* Actual colours */
-$black-coffee: #423645ff;
+/* Colours */
+$black-coffee: #523655ff;
 $phthalo-green: #183329ff; 
 $baby-pink: #deb8bdff;
-$pink-lace: #F0D3F7;
+$pink-lace: #FFE3F0;
 $morning-blue: #89A7A7;
+/* Colours end */
+
 
 /* Style the nav */
 
-nav {
-    background: $phthalo-green;
-    padding: 10px;
-    text-align: center; /* This horizontally centres the whole nav#s content */
+body {
+  /* spaces intro text out much more */
+  line-height: 1.5em;
+  font-family: "minion-pro","Segoe UI","Helvetica Neue","Noto Sans";
+  background: #F0D3F7;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label
+a  {
+  color: $baby-pink;
+  font-family: "Verlag","Segoe UI","Helvetica Neue",Arial,"Noto Sans";
 }
 
 
-/* Styles to add when we've got enough space */
-@media screen and (min-width: 1024px) {
-  .container {
-    /* Give the content a comfortable distance from window sides */
-    padding: 0 120px;  
-
-    /* Stops the content getting stupidly wide on big screens */
-    max-width: 1280px; 
-
-    
-  }
+/* WARNING styles for the big warning banner at the top */
+div.warning {
+  text-align: center;
+  background: black
 }
+
+h1.warning {
+  width: 100%;
+  color: red;
+  padding: 8px 8px;
+  margin: 0px
+}
+
+/* WARNING styles  end */
+
+

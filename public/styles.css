@@ -1,22 +1,15 @@
-/* NOTE: The bulk of these styles assume a
-         screen width of <40em - Mobile browser
-         sized!
-*/
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-/*
- * -- BASE STYLES --
- * Customise Colours, lines and fonts.
- */
+/* Font import */
+@import url(https://fonts.googleapis.com/css);
+/* Font import end */
+/* Colours */
+/* Colours end */
+/* Style the nav */
 body {
-    /* spaces intro text out much more */
-    line-height: 1.7em;
-    font-family: "minion-pro","Segoe UI","Helvetica Neue","Noto Sans";
+  /* spaces intro text out much more */
+  line-height: 1.5em;
+  font-family: "minion-pro", "Segoe UI", "Helvetica Neue", "Noto Sans";
+  background: #F0D3F7;
+  margin: 0;
 }
 
 h1,
@@ -25,168 +18,22 @@ h3,
 h4,
 h5,
 h6,
-label
-a  {
-    color: #deb8bd;
-    font-family: "Verlag","Segoe UI","Helvetica Neue",Arial,"Noto Sans";
+label a {
+  color: #deb8bd;
+  font-family: "Verlag", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans";
 }
 
-.pure-g {
-
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-  }
-
-
-
-/*
- * -- MENU STYLES --
- * 
- */
-
-.nav {
-    
-    text-align: center;
-    background: #183329;
+/* WARNING styles for the big warning banner at the top */
+div.warning {
+  text-align: center;
+  background: black;
 }
 
-.pure-menu.pure-menu-fixed {
-    /* Fixed menus normally have a border at the bottom. */
-    border-bottom: none;
+h1.warning {
+  width: 100%;
+  color: red;
+  padding: 8px 8px;
+  margin: 0px;
 }
 
-.pure-menu-link {
-    padding: .25em;
-}
-
-
-.nav a {
-    color: #deb8bd;
-}
-.nav li a:hover,
-.nav li a:focus {
-    /* needed otherwise the box lights up */
-    background: none;
-    border: none;
-    color: #423645;
-}
-
-
-
-.hero-container {
-    background: #183329;
-    z-index: 1;
-    overflow: hidden;
-    /* The following styles are required for the "scroll-over" effect */
-    width: 100%;
-/* keep it below the nav, otherwise it underlaps */
-    top: 100; 
-    left: 0;
-
-}
-
-div.hero-text {
-    max-width: 600px;
-    padding: 30px;
-}
-
-.hero-img {
-    display: block;
-    max-width: 600px;
-    /* we want the bottom of the portrait to align with the bottom of the section */
-    margin-bottom: -30px
-}
-
-
-/* This is the subheading that appears on the blue section */
-p.hero-text {
-    color: #deb8bd;
-    opacity: 0.8;
-    font-size: 18px;
-
-}
-
-.story-container {
-    background: #deb8bd;
-    z-index: 1;
-    overflow: hidden;
-    /* The following styles are required for the "scroll-over" effect */
-    width: 100%;
-/* keep it below the nav, otherwise it underlaps */
-    top: 100; 
-
-}
-
-div.story-text {
-    max-width: 600px;
-    padding: 30px;
-}
-
-.story-img {
-    display: block;
-    max-width: 600px;
-    /* we want the bottom of the portrait to align with the bottom of the section */
-    margin-bottom: -30px
-}
-
-
-/* This is the subheading that appears on the blue section */
-p.story-text {
-    color: #183329;
-    opacity: 0.8;
-    font-size: 18px;
-
-}
-
-h2.story-text {
-    color: #183329;
- 
-}
-
-/*
- * -- TABLET (AND UP) MEDIA QUERIES --
- * On tablets and other medium-sized devices, we want to customize some
- * of the mobile styles.
- */
-@media (min-width: 40em) {
-
-    /* We can align the logo to the left, but float the
-    menu items to the right */
-    .nav {
-        text-align: left;
-    }
-        .nav ul {
-            float: right;
-            padding-right: 16px;
-            font-family: "Verlag","Segoe UI","Helvetica Neue",Arial,"Noto Sans";
-            font-weight: 500;
-        }
-    .pure-menu-link {
-        padding: .5em 1em;
-    }
-    
-}
-
-
-
-
-/* Test styles for rest of content */
-
-@media screen and (min-width: 1000px) {
-    h2 {
-    font-size: 48px;
-    }
-
-    p {
-      font-size: 18px;
-    }
-    nav .mobile-links {
-        display: none
-    }
-    nav .links {
-        display: block
-
-    }
-
-}
+/* WARNING styles  end *//*# sourceMappingURL=styles.css.map */
