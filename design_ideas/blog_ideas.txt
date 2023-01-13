@@ -2,7 +2,7 @@
 - GSS 2022
 - Wardley mapping
 - The archive (Hardware & pis)
-- iPerf debugging internet issues.
+- iPerf debugging internet issues. - ONGOING!
 - strategy
 
 

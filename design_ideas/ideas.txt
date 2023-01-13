@@ -1,1 +1,4 @@
 https://colly.com/#fn24 - story of my life timeline page?
+
+
+- Have a bit at the bottom which links to the code and says GPL or something. 
