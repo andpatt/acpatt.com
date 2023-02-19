@@ -27,7 +27,7 @@ It had a lyrics page so I could remember the lyrics when I was playing along to 
 
 It took me a very long time to make, and at the time I couldn’t really put my finger on why. I knew I found it immensely frustrating but it’s only with coming back that I can see what was going on. 
 
-I lost that website after I moved house (and had to tear down [my homelab]({{< relref "/blog/my_first_homelab" >}})), and I didn’t try to make another until late ast year. I made the same mistake this time as I did all those years ago; both times I didn’t start with a static site generator and a pre-built theme because I wanted to prove I could write the HTML/CSS from scratch. Difference is that this time I wanted the site to be a bastion of good coding practises. My requirements were: 
+I lost that website after I moved house (and had to tear down [my homelab](/blog/my_first_homelab)), and I didn’t try to make another until late ast year. I made the same mistake this time as I did all those years ago; both times I didn’t start with a static site generator and a pre-built theme because I wanted to prove I could write the HTML/CSS from scratch. Difference is that this time I wanted the site to be a bastion of good coding practises. My requirements were: 
 
 
 Uses HTML5 wherever possible.
