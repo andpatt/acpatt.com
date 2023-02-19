@@ -4,7 +4,7 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 before_script:
   - pwd
   - ls -lah
-  - cd public
+  - cd hugo
 pages:
   script:
     - uname -a
