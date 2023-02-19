@@ -8,6 +8,7 @@ before_script:
 pages:
   script:
     - uname -a
+    - git clone https://github.com/andpatt/hugo-theme-pico themes/pico
     - hugo
   artifacts:
     paths:
