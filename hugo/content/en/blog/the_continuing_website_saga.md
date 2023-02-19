@@ -1,7 +1,7 @@
 +++
 title = "The continuing Website Saga"
 subtitle = "God I hate frontend"
-tags = ['frontend', 'front']
+tags = ['frontend']
 date = 2023-02-19
 
 draft = false
