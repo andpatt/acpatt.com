@@ -8,6 +8,7 @@ before_script:
 pages:
   script:
     - uname -a
+    - apk add --update npm
     - git clone https://github.com/andpatt/hugo-theme-pico themes/pico
     - ./setup.sh
     - hugo
