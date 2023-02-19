@@ -4,7 +4,7 @@
 *secrets.auto.tfvars
 public/resources/_gen
 */node_modules
-public/node_modules/
+public/public
 
 */resources
 */.hugo_build.lock

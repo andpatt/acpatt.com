@@ -4,13 +4,15 @@ image: public.ecr.aws/lts/ubuntu:22.04_stable
 before_script:
   - pwd
   - ls -lah
+  - cd public
 pages:
   script:
     - uname -a
+    - hugo
   artifacts:
     paths:
       # The folder that contains the files to be exposed at the Page URL
-      - public
+      - public/public
   rules:
     # This ensures that only pushes to the default branch will trigger
     # a pages deploy
