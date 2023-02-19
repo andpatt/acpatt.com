@@ -1,0 +1,3 @@
+[submodule "publi/themes/pico"]
+	path = public/themes/pico
+	url = git@github.com:andpatt/hugo-theme-pico.git

@@ -19,10 +19,16 @@ Approach to creating this:
 
 ---------------------------------
 
-### 2022-01-13
+### 2023-01-13
 
 So I tried out a few different wants of doing this. Starting with Numl, then trying semanticUI and then fell on PureCSS. 
 
 Curiously, by being so simple, pureCSS showed me that I didn't need a whole big framework to do something servicable. I just needed a more structured approach to creating the HTMl!
 
 The next step then is to structure some HTML that represents the page and then I think start theming it from scratch. with reference to purecss classes and similar websites. 
+
+### 2023-02-19
+
+I got somewhere. I installed hugo, found a nice looking theme and I've used that. It took maybe half a day to get a frontpage up. 
+
+Now I'm just tidying up the repo for pushing. 
