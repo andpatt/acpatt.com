@@ -42,5 +42,5 @@ script_path="./themes/pico/exampleSite/update.sh"
 if [ -f "$script_path" ]; then
 	echo "Updating update.sh : "
 	echo "cp \"$script_path\" ."
-	cmp --silent "./update.sh" "$script_path" || cp "$script_path" .
+	cmp -s "./update.sh" "$script_path" || cp "$script_path" . # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/1625
 fi
