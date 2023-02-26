@@ -24,7 +24,7 @@ concurrency:
 defaults:
   run:
     shell: bash
-    # working-directory: hugo
+    working-directory: hugo
 
 
 jobs:
