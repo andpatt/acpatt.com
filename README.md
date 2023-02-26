@@ -1,34 +1,16 @@
-# __main__
+# ACPatt.com Repo
 
-### 2022-12-20 - Just starting out
-------------------------------
+This is my website. 
 
-This repo is for an entrypoint website into my professional identity.
+### Big bits
 
-This is so that I can better guide anyone looking towards the most relevant artefacts, rather than just a link to a gitlab group or my CV. 
+The website is live at https://acpatt.com
 
-Approach to creating this: 
-- [x] do the TF for the DNS 
-- [x] Get a very basic index.html
-- [x] do the CI for the gitlab pages
-- [ ] Draw out a picture of frontpage
-- [ ] Start making a website
-- [ ] Choose a palette
-- [ ] Colour it in
+This repo lives at https://github.com/andpatt/acpatt.com/ 
 
+### folder layoutCurrently the `hugo` dir contains the website. 
 
----------------------------------
+`archive` has old attempts at the website. `blog_data` and `design_ideas` are places to put ideas for blogs, changes to the website design and just thoughts.
 
-### 2023-01-13
+`terraform` has the terraform folder. 
 
-So I tried out a few different wants of doing this. Starting with Numl, then trying semanticUI and then fell on PureCSS. 
-
-Curiously, by being so simple, pureCSS showed me that I didn't need a whole big framework to do something servicable. I just needed a more structured approach to creating the HTMl!
-
-The next step then is to structure some HTML that represents the page and then I think start theming it from scratch. with reference to purecss classes and similar websites. 
-
-### 2023-02-19
-
-I got somewhere. I installed hugo, found a nice looking theme and I've used that. It took maybe half a day to get a frontpage up. 
-
-Now I'm just tidying up the repo for pushing. 

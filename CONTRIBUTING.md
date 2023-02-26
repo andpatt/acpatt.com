@@ -2,7 +2,7 @@
 2. Create a file called secrets.auto.tfvars and put the contents into it. 
 3. do the following:
 
-export PROJECT_ID="41928687"
+export PROJECT_ID="43851271"
 export TF_USERNAME="<gitlab-username>"
 export TF_PASSWORD="<gitlab-personal-access-token>"
 export TF_ADDRESS="https://gitlab.com/api/v4/projects/${PROJECT_ID}/terraform/state/main"
