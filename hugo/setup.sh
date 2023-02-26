@@ -12,4 +12,4 @@ npm install
 
 # ./update.sh
 
-hugo --gc --minify
+# hugo --gc --minify
