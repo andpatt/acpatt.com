@@ -1,10 +1,10 @@
-- This website
-- GSS 2022
-- Wardley mapping
-- The archive (Hardware & pis)
+- This website.
+- GSS 2022.
+- Wardley mapping.
+- The archive (Hardware & pis). 
 - iPerf debugging internet issues. - ONGOING!
-- strategy
-
+- strategy.
+- implementing cont improv in support inbox.
 
 Twitter post ideas:
 - Old PSU - 16 years old?
