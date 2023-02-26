@@ -19,9 +19,9 @@ It always starts with a Raspberry Pi. I’ve been building computers all my life
 
 But in 2016 I did a 10 week full time course on cybersecurity. I did theoretical physics and maths at uni and having graduated just months before I was eager (see: desperate) to learn something that wasn’t so.. theoretical. I wanted to learn something that I could use. So I got a Pi to play with all the cybersecurity stuff I was learning on the course, and I did! I got an old sachertorte box for a case, I stuck kali on the Pi and Metasploitable on my desktop and had a whale of a time. 
 
-![Two more Pis and an old case fan later](/img/cluster0.jpg)
+![Two more Pis and an old case fan later](img/cluster0.jpg)
 
-![Inside the box](/img/cluster2.jpg)
+![Inside the box](img/cluster2.jpg)
  
 
 Off the back of those experiences I got my first job as a systems engineer in Hull, and that’s when things really started to take off. 
@@ -32,7 +32,7 @@ I needed to learn a lot about a lot, and fast. I needed to learn about linux, be
 
 The office was throwing out an old NAS - a 2008 8-bay Thecus, along with the 1TB drives. One problem, the crappy ARM chip and the 512MB of RAM meant that it wasn’t going to be any use without an.. Upgrade. So I get an old motherboard + CPU from ebay, stick some spare ram in it, do some serious modifications to the case, and I had myself a perfect candidate for FreeNAS.
 
-![A thecus with the motherboard replaced, plus a heatsink and fan off an old pentium 4](/img/thecus0.jpg)
+![A thecus with the motherboard replaced, plus a heatsink and fan off an old pentium 4](img/thecus0.jpg)
 
 
 
@@ -42,7 +42,7 @@ My second big break was when we were installing a new ESX server for a client in
 
 At work I was also learning about domain controllers and end-user support at work, so I got a SAMBA4 based domain controller running and made myself some pretend users and a mailserver and all that fun stuff. I made myself a personal website to document the journey. 
 
-![A blog post I wrote on the old website about how to mount iSCSI LUNs automatically.](/img/web_code.png)
+![A blog post I wrote on the old website about how to mount iSCSI LUNs automatically.](img/web_code.png)
 
 I was running enough infrastructure to support a medium sized business out of my (very small) office in my spare time. 
 
@@ -53,7 +53,7 @@ But it's not all bad. The reason I moved is because I got the job where I learne
 
 So here’s what my lab looked like at the end. I learned a lot and I broke a lot and it was great. 
 
-![An "architecture" diagram from 2018 showing the network and server hardware as well as the virtual services running on it.](/img/network.png)
+![An "architecture" diagram from 2018 showing the network and server hardware as well as the virtual services running on it.](img/network.png)
 
-![All my servers on the floor of my office, being extremely loud but you can't tell because it's a picture.](/img/setup.jpg)
+![All my servers on the floor of my office, being extremely loud but you can't tell because it's a picture.](img/setup.jpg)
 

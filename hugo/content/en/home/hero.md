@@ -7,7 +7,7 @@ weight = 10
 # hidden = true
 
 # Hero image (optional). Enter filename of an image in the `static/` folder.
-hero_media = "/img/Andrew.png"
+hero_media = "img/Andrew.png"
 
 
 # Buttons: Who I am (about), What I can do (work), Talk to me, (contact)

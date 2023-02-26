@@ -34,21 +34,21 @@ darkMode = 'always'
 # Social parameters for contact_icons widget
 [[params.social]]
 alt = "email icon"
-icon = "/icons/email.svg"
+icon = "icons/email.svg"
 name = "email"
 url = "mailto:andrew@acpatt.com"
 
 [[params.social]]
 alt = "gitlab icon"
 blank = true
-icon = "/icons/gitlab.svg"
+icon = "icons/gitlab.svg"
 name = "gitlab"
 url = "https://gitlab.com/acpatt"
 
 [[params.social]]
 alt = "linkedin icon"
 blank = true
-icon = "/icons/linkedin.svg"
+icon = "icons/linkedin.svg"
 name = "twitter"
 url = "https://www.linkedin.com/in/andrew-charles-patterson/"
 

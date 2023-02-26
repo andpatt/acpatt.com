@@ -19,7 +19,7 @@ It’s funny coming back after years and seeing how you’ve changed, and how yo
 
 The last time I had a website was when I first learnt about HTML and CSS - nearly five years ago now. It was a hell of a time, that. I'd not long had my first job as a server and network engineer, but I got a wholesale introduction to the entire world of IT, networks, small business, software development, devops. It was great. 
 
-![The front page of my old website. It's pink and brown and the logo is a cat with a helicopter rotor. It's quite "busy".](/img/old_website.png)
+![The front page of my old website. It's pink and brown and the logo is a cat with a helicopter rotor. It's quite "busy".](img/old_website.png)
 
 Anyway, the website. It was awful! it was raw HTML and CSS for everything, and it wasn't a small website! 
 
@@ -27,7 +27,7 @@ It had a lyrics page so I could remember the lyrics when I was playing along to 
 
 It took me a very long time to make, and at the time I couldn’t really put my finger on why. I knew I found it immensely frustrating but it’s only with coming back that I can see what was going on. 
 
-I lost that website after I moved house (and had to tear down [my homelab](/blog/my_first_homelab)), and I didn’t try to make another until late ast year. I made the same mistake this time as I did all those years ago; both times I didn’t start with a static site generator and a pre-built theme because I wanted to prove I could write the HTML/CSS from scratch. Difference is that this time I wanted the site to be a bastion of good coding practises. My requirements were: 
+I lost that website after I moved house (and had to tear down [my homelab](blog/my_first_homelab)), and I didn’t try to make another until late ast year. I made the same mistake this time as I did all those years ago; both times I didn’t start with a static site generator and a pre-built theme because I wanted to prove I could write the HTML/CSS from scratch. Difference is that this time I wanted the site to be a bastion of good coding practises. My requirements were: 
 
 
 Uses HTML5 wherever possible.
@@ -36,7 +36,7 @@ Interactive-ready.
 
 I’d heard Next.JS was a cool platform, so I started with that. I think I had a bit of that dunning-kruger confidence and I spent maybe 3 days playing with the example site before I understood that not only was I out of my depth, I was actually in the wrong pond. So I confessed my mistake to my colleagues and had a look through other frameworks available. I did time with SemanticUI, but couldn’t figure
 
-![Homepage using pureCSS](/img/website_full.png)
+![Homepage using pureCSS](img/website_full.png)
 
 It took me a while but I got quite far with this one. I was quite picky about what I wanted, and I needed to extend the classes so much that in the end I gave up and just wrote the whole thing in html and CSS again. And I did. And it looked like absolute arse, but it worked! It was responsive, it rendered properly on mobile and it used HTML5 components. 
 
