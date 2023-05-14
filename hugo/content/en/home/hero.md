@@ -27,6 +27,14 @@ hero_media = "img/Andrew.png"
 
 	primary = true
 
+[[btn]]
+  url = "https://docs.google.com/document/d/1k-cRV6AqpDD63euOaUNyH1mC_KxUdwvQrjBJwecAzhM/preview"
+  label = 'See my CV'
+	# Primary color
+
+	primary = true
+
+
 +++
 
 # It's Me!
