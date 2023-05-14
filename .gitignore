@@ -9,3 +9,4 @@ public/public
 */resources
 */.hugo_build.lock
 hugo/public
+hugo/themes/pico
