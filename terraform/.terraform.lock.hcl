@@ -5,6 +5,7 @@ provider "registry.terraform.io/cloudflare/cloudflare" {
   version     = "2.27.0"
   constraints = "~> 2.0"
   hashes = [
+    "h1:8aI3M91kMr7B1QV9G3IjGxrKmFMD3vGEJwI9VKb1YhY=",
     "h1:Cbo1qOLvk5KYUp5+EhV3GkcxPMQXY+3mwkKeTqtykkI=",
     "zh:15b7e8f7516ebd37461fb5a3b843dd0c250158c8000a2dc55b7b6f02780bee0f",
     "zh:187eed008324c43be4af075a68cf375ec2f3999c87ead243e64743abf2cb01ab",
@@ -26,6 +27,7 @@ provider "registry.terraform.io/cloudflare/cloudflare" {
 provider "registry.terraform.io/gitlabhq/gitlab" {
   version = "3.20.0"
   hashes = [
+    "h1:IRICq1oKYStK4PRmGZM1knV/ibKRF4l1MVf2zV3svGY=",
     "h1:KCnjw82fy5ueEevrYmzBcPyRNcR5idRH+f3ahkj6CbU=",
     "zh:0428e9904b2fabf2001bdf83ac68af8287c0c790278ca0a8ed0c895db103af9f",
     "zh:0dd6a2d5bf3d33047da5d2707e394be01305e1215d5751ecfb4d06c97c4ac247",
@@ -49,6 +51,7 @@ provider "registry.terraform.io/louy/uptimerobot" {
   version     = "0.5.1"
   constraints = "0.5.1"
   hashes = [
+    "h1:NZD/91iG3LdyORMJGqjvla9r4tVDkcbcnHAIcehj5CI=",
     "h1:Oc5L04pt+5NJ8n47K7tVHbqFmuobW/x5zaF5sPGCQwE=",
     "zh:0cab4092125cf524a2e5caf74a4e90f230734b20bbceb20e51ffb82f2fcc90fc",
     "zh:130d9d9ddb2f9070d7846066d424d785a624472a25b413382bf6e80ad4754158",

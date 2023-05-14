@@ -23,7 +23,7 @@ resource "cloudflare_record" "cname" {
 resource "cloudflare_record" "challenge" {
   zone_id = data.cloudflare_zones.primary.zones[0].id
   name    = "_gitlab-pages-verification-code"
-  value   = "gitlab-pages-verification-code=bc25910337416a58b662129ac707df02"
+  value   = "gitlab-pages-verification-code=4a7f7d2b7179425f5b06087dcbfbfa62"
   type    = "TXT"
 }
 
