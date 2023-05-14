@@ -27,20 +27,21 @@ It had a lyrics page so I could remember the lyrics when I was playing along to 
 
 It took me a very long time to make, and at the time I couldn’t really put my finger on why. I knew I found it immensely frustrating but it’s only with coming back that I can see what was going on. 
 
-I lost that website after I moved house (and had to tear down [my homelab](blog/my_first_homelab)), and I didn’t try to make another until late ast year. I made the same mistake this time as I did all those years ago; both times I didn’t start with a static site generator and a pre-built theme because I wanted to prove I could write the HTML/CSS from scratch. Difference is that this time I wanted the site to be a bastion of good coding practises. My requirements were: 
+I lost that website after I moved house (and had to tear down [my homelab](blog/my_first_homelab)), and I didn’t try to make another until late last year. I made the same mistake this time as I did all those years ago; both times I didn’t start with a static site generator and a pre-built theme because I wanted to prove I could write the HTML/CSS from scratch. Difference is that this time I wanted the site to be a bastion of good coding practises. My requirements were: 
 
 
 Uses HTML5 wherever possible.
 Mobile-first, responsive design.
 Interactive-ready. 
 
-I’d heard Next.JS was a cool platform, so I started with that. I think I had a bit of that dunning-kruger confidence and I spent maybe 3 days playing with the example site before I understood that not only was I out of my depth, I was actually in the wrong pond. So I confessed my mistake to my colleagues and had a look through other frameworks available. I did time with SemanticUI, but couldn’t figure
+I’d heard Next.JS was a cool platform, so I started with that. I think I had a bit of that dunning-kruger confidence and I spent maybe 3 days playing with the example site before I understood that not only was I out of my depth, I was actually in the wrong pond. So I confessed my mistake to my colleagues and had a look through other frameworks available. I did time with SemanticUI, but couldn’t figure out how to even install it, never mind build a website with it! I eventually landed on PureCSS.
 
 ![Homepage using pureCSS](img/website_full.png)
 
 It took me a while but I got quite far with this one. I was quite picky about what I wanted, and I needed to extend the classes so much that in the end I gave up and just wrote the whole thing in html and CSS again. And I did. And it looked like absolute arse, but it worked! It was responsive, it rendered properly on mobile and it used HTML5 components. 
 
-But it wasn’t going to be a good advert for me as a professional, so I installed hugo and found a very nice theme and that’s where we are now. 
+But it wasn’t going to be a good advert for me as a professional, so... I installed hugo and found a very nice theme and that’s what you're looking at now.
+
 
 So what have I learned? I learned that I did not do the due diligence to decide why I actually wanted a website. the actual reason is that I wanted to be able to write things like this, to provide an entrypoint into my professional life and to attach my CV to. I got caught up with wanting to feel like I could do front-end dev and I overestimated how much time I would want to invest in this project. 
 
